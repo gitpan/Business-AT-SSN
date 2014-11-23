@@ -15,7 +15,7 @@ DESCRIPTION
 
 METHODS
     my $obj = Business::AT::SSN->new([$ssn])
-        The new constructor optionally takes a
+        The new constructor optionally takes a ssn number
 
     $obj->ssn([$ssn])
         if no argument is given, it returns the current ssn number. if an
@@ -26,6 +26,9 @@ METHODS
 
     $obj->date_of_birth
         Returns the date of birth as a DateTime object
+
+    $array_ref = $obj->error_messages
+        Returns a array ref of error messages after calling is_valid
 
 AUTHOR
     Mark Hofstetter <mark@hofstetter.at>

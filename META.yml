@@ -27,7 +27,7 @@ resources:
   bugtracker: https://github.com/MarkHofstetter/Business-AT-SSN/issues
   homepage: https://github.com/MarkHofstetter/Business-AT-SSN
   repository: https://github.com/MarkHofstetter/Business-AT-SSN.git
-version: '0.9'
+version: '0.91'
 x_contributors:
   - 'Mark Hofstetter <mark@univie.ac.at>'
   - 'MarkHofstetter <mark@hofstetter.at>'
